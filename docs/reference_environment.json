@@ -1,0 +1,14 @@
+{
+  "python": "3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "versions": {
+    "numpy": "1.24.4",
+    "scipy": "1.9.1",
+    "torch": "2.2.1+cu118",
+    "torchvision": "0.17.1",
+    "Pillow": "11.3.0",
+    "matplotlib": "3.5.2",
+    "requests": "2.32.5",
+    "waveprop": "0.0.12"
+  }
+}

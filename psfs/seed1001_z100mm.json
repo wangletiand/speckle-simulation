@@ -1,0 +1,27 @@
+{
+  "group": "seed1001_z100mm",
+  "seed": 1001,
+  "wavelength_m": 5.32e-07,
+  "screen_sampling_m": 4e-06,
+  "screen_grid": 1024,
+  "screen_diameter_m": 0.0012,
+  "object_to_screen_m": 0.3,
+  "screen_to_camera_m": 0.1,
+  "camera_sampling_m": 1.2988281250000087e-05,
+  "object_sampling_m": 3.8964843750000256e-05,
+  "magnification": -0.33333333333333337,
+  "phase_std_rad": 4.0,
+  "phase_smoothing_sigma_px": 0.7,
+  "spatial_coherence": "zero between distinct object pixels; exact intensity sum",
+  "temporal_coherence": "monochromatic",
+  "screen_model": "single zero-thickness phase screen",
+  "memory_effect": "ideal paraxial thin-screen shift invariance, not a calibrated finite-thickness ME range",
+  "sensor_shape": [
+    512,
+    512
+  ],
+  "convolution": "linear full then central crop; no circular wrap",
+  "camera_peak_electrons": 20000.0,
+  "camera_read_noise_electrons": 3.0,
+  "camera_offset_electrons": 100.0
+}

@@ -1,0 +1,67 @@
+{
+  "regenerated_pairs": 96,
+  "all_measurement_arrays_bitwise_equal_to_reference": true,
+  "maximum_absolute_difference": 0.0,
+  "sample_records": 3,
+  "sample_measurement_sha256_verified": true,
+  "sample_reader": "records 3 target (65, 65) speckle (512, 512) float32",
+  "source_generate_sha256": "3a789680f78849272b15981a8f962067e5261a2c6ab51a9d5a21beae45edabbb",
+  "export_generate_sha256": "449dc63af1be50c782ca68599c6970eb8af4a08b8c4232770bee1ec8800278fa",
+  "regeneration_validation": {
+    "pairs": 96,
+    "unique_targets": 16,
+    "groups": 6,
+    "checks": [
+      {
+        "group": "seed1001_z100mm",
+        "tilt_shift_px": 8,
+        "relative_intensity_shift_error": 6.683885713901673e-16,
+        "psf_sum": 1.0,
+        "psf_contrast": 1.0001592963219048
+      },
+      {
+        "group": "seed1001_z200mm",
+        "tilt_shift_px": 8,
+        "relative_intensity_shift_error": 6.69705906832501e-16,
+        "psf_sum": 1.0000000000000002,
+        "psf_contrast": 1.0008347083727878
+      },
+      {
+        "group": "seed1002_z100mm",
+        "tilt_shift_px": 8,
+        "relative_intensity_shift_error": 6.812772088799212e-16,
+        "psf_sum": 0.9999999999999997,
+        "psf_contrast": 1.0008648638779964
+      },
+      {
+        "group": "seed1002_z200mm",
+        "tilt_shift_px": 8,
+        "relative_intensity_shift_error": 6.6450117604863e-16,
+        "psf_sum": 1.0,
+        "psf_contrast": 1.0020064800695372
+      },
+      {
+        "group": "seed1003_z100mm",
+        "tilt_shift_px": 8,
+        "relative_intensity_shift_error": 6.627900277027313e-16,
+        "psf_sum": 1.0000000000000004,
+        "psf_contrast": 1.0035131675922138
+      },
+      {
+        "group": "seed1003_z200mm",
+        "tilt_shift_px": 8,
+        "relative_intensity_shift_error": 6.662864016871385e-16,
+        "psf_sum": 0.9999999999999998,
+        "psf_contrast": 1.0004671854461207
+      }
+    ],
+    "three_point_superposition_error": 4.1378545808156314e-16,
+    "elapsed_seconds": 37.82755708694458,
+    "retained_energy_range": [
+      0.2512193528358917,
+      0.25231391589619107
+    ]
+  },
+  "validation_environment": "Existing GPU-host Python environment; fresh dependency installation not tested",
+  "export_normalization": "CRLF to LF only; Python AST equivalence verified"
+}
